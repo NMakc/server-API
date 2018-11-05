@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title HTML5
+    //if IE
+      script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')
+    
+  body
+  h1 GO
+  p page render http://jsonplaceholder.typicode.com
+  each post, index in posts
+   p=index+1
+   p=post.title
+   p=post.body
