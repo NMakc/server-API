@@ -13,7 +13,7 @@ app.set('view engine','pug');
 const index = require('./routes/index')
 app.use('/', index);
 
-// слушать запуск сервера на порту 3000, если ок, то в консоли вывести 'Server ok '
+// слушать запуск сервера на порту 8080, если ок, то в консоли вывести 'Server ok '
 app.listen(8080, ()=>{
     console.log('Server ok ')
 });
